@@ -2,7 +2,7 @@
 
 pragma solidity 0.6.8;
 
-import "@animoca/ethereum-contracts-core_library/contracts/access/WhitelistedOperators.sol";
+import "@cryptogesic/ethereum-contracts-core_library/contracts/access/WhitelistedOperators.sol";
 import "./ERC20.sol";
 
 abstract contract ERC20WithOperators is ERC20, WhitelistedOperators {

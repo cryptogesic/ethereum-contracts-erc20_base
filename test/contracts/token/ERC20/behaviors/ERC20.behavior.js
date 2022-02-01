@@ -1,5 +1,5 @@
 const { BN, expectEvent, expectRevert } = require('@openzeppelin/test-helpers');
-const { constants, behaviors } = require('@animoca/ethereum-contracts-core_library');
+const { constants, behaviors } = require('@cryptogesic/ethereum-contracts-core_library');
 const { ZeroAddress } = constants;
 const interfaces = require('../../../../../src/interfaces/ERC165');
 

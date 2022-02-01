@@ -1,4 +1,4 @@
-// const {sh} = require('@animoca/ethereum-contracts-core_library');
+// const {sh} = require('@cryptogesic/ethereum-contracts-core_library');
 const { accounts, contract } = require('@openzeppelin/test-environment');
 const { BN } = require('@openzeppelin/test-helpers');
 

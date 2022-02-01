@@ -1,12 +1,12 @@
 {
-  "name": "@animoca/ethereum-contracts-erc20_base",
+  "name": "@cryptogesic/ethereum-contracts-erc20_base",
   "version": "3.0.0",
   "description": "Base ERC20 and ERC20-fees meta-transaction contracts",
   "scripts": {
-    "compile": "./node_modules/@animoca/ethereum-contracts-core_library/scripts/oz-compile.sh",
-    "test": "./node_modules/@animoca/ethereum-contracts-core_library/scripts/oz-test.sh",
-    "coverage": "./node_modules/@animoca/ethereum-contracts-core_library/scripts/coverage.sh",
-    "migrate": "./node_modules/@animoca/ethereum-contracts-core_library/scripts/migrate.sh"
+    "compile": "./node_modules/@cryptogesic/ethereum-contracts-core_library/scripts/oz-compile.sh",
+    "test": "./node_modules/@cryptogesic/ethereum-contracts-core_library/scripts/oz-test.sh",
+    "coverage": "./node_modules/@cryptogesic/ethereum-contracts-core_library/scripts/coverage.sh",
+    "migrate": "./node_modules/@cryptogesic/ethereum-contracts-core_library/scripts/migrate.sh"
   },
   "main": "src/index.js",
   "repository": {
@@ -25,6 +25,6 @@
     "@openzeppelin/gsn-provider": "^0.1.10"
   },
   "devDependencies": {
-    "@animoca/ethereum-contracts-core_library": "^3.0.0"
+    "@cryptogesic/ethereum-contracts-core_library": "^3.0.0"
   }
 }
